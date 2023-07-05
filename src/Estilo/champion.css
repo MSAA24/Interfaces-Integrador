@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Barlow-thick';
+    src: url('../Font/BarlowCondensed-Black.ttf');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Barlow-thin';
+    src: url('../Font/Barlow-LightItalic.ttf');
+    font-style: normal;
+}
+
+/* Champions */
+
+.champions {
+    min-height: 400px;
+    margin-top: 40px;
+}
+
+.champions-title {
+    text-align: center;
+}
+.champions-Button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+.champions-container{
+    display: flex;
+    align-items: stretch;
+    
+}
+
+.champions-map-grid {
+    font-family: 'Barlow-thin';
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 2fr));
+    justify-items: center;
+    padding: 2%;
+    gap: 15px;
+    text-align: center;
+}
+
+.champion-img img {
+    width: 175px; 
+    height: auto; 
+}
+
+.champions h1 {
+    font-family: 'Barlow-thick';
+    font-size: 55px;
+}
+.champions-info {
+    display: flex;
+}
+
+.champion-input{
+    padding-right: 2%;
+}
+
+.champion-input input {
+    height: 100%; 
+}
+
+/* ChampionId */
+
+.championId {
+    margin-top: 40px;
+    min-height: 400px;
+}
+
+.championId h1 {
+    font-family: 'Barlow-thick';
+    font-size: 55px;
+}
+
+.championId-title {
+    text-align: center;
+}
+
+.championId-container {
+    font-family: 'Barlow-thin';
+    font-size: 25px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+    align-items: center;
+    padding: 5%;
+    
+}
+
+.champions-Button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.championId-datos-stats{
+    padding-top: 2%;
+}
+
+/* Intento de Responsive */
+@media screen and (max-width: 768px) {
+    .championId {
+        padding: 20px;
+    }
+    
+    .championId-Button {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .champions-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .championId-container {
+        flex-direction: column;
+    }
+    
+    .championId-Image {
+        margin-bottom: 20px;
+    }
+    
+    .championId-datos {
+        text-align: center;
+    }
+}
