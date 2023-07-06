@@ -37,7 +37,7 @@
     width: auto;
 }
 
-/* Responsive */
+/* Intento de Responsive */
 @media (max-width: 600px) {
     .header{
         width: 100%;

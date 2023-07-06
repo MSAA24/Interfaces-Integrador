@@ -10,20 +10,6 @@
     font-style: normal;
 }
 
-
-
-@font-face {
-    font-family: 'Barlow-thick';
-    src: url('../Font/BarlowCondensed-Black.ttf');
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Barlow-thin';
-    src: url('../Font/Barlow-LightItalic.ttf');
-    font-style: normal;
-}
-
 .frontPage {
     margin-top: 40px;
 }

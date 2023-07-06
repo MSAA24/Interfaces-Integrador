@@ -1,46 +1,3 @@
-/* @font-face {
-    font-family: 'Barlow-thick';
-    src: url('../Font/BarlowCondensed-Black.ttf');
-    font-style: normal;
-  }
-  
-@font-face {
-    font-family: 'Barlow-thin';
-    src: url('../Font/Barlow-LightItalic.ttf');
-    font-style: normal;
-}
-
-.footer{
-    font-family: 'Barlow-thick';
-    display: block;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20vh;
-    padding: 1%;
-    background-color: rgb(6, 7, 7);
-   
-}
-
-.footer h4{
-    color: rgb(114, 114, 114);
-    text-align: center;
-    text-decoration: none;
-}
-
-.redes-links{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 1%;
-}
-
-.footer-redes img{
-    width: 35px;
-    height: 35px;
-    filter: brightness(500%) invert(85%);
-    
-} */
-
 @font-face {
     font-family: 'Barlow-thick';
     src: url('../Font/BarlowCondensed-Black.ttf');
@@ -96,7 +53,7 @@
     margin-bottom: 15px;
 }
 
-
+/* Intento de Responsive */
 @media (max-width: 768px) {
     .footer-redes {
         flex-basis: 50%;
